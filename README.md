@@ -1,66 +1,75 @@
 # Azure Python Task Manager
 
-Dit is mijn tweede Azure project als beginner in cloud en onderdeel van mijn GitHub-portfolio.
+A Python web application built with Flask, hosted on Azure App Service, and automatically deployed via GitHub Actions.
 
-## Over dit project
+🔗 **Live demo:** [Open app](https://sebas-task-manager-app-ddf0gvfqhnhzcbaf.westeurope-01.azurewebsites.net/)
 
-Voor dit project heb ik een simpele webapp gebouwd met Python en Flask en gehost in Microsoft Azure via Azure App Service.
+---
 
-Met deze app kunnen gebruikers taken bekijken en toevoegen via een eenvoudige interface.
+## 📌 About this project
 
-Dit project is mijn eerste hands-on ervaring met een Python backend in Azure.
+This is my second Azure project. I built a task manager application with a Python (Flask) backend and an HTML/CSS frontend. The app runs fully on Microsoft Azure and is automatically deployed on every push to the main branch.
 
-## Doel van dit project
+---
 
-Ik ben bezig om Azure specialist te worden.
+## 🛠️ Technologies used
 
-Met dit project wil ik:
+- Python (Flask)
+- HTML & CSS
+- Azure App Service (Linux, Python 3.12)
+- GitHub Actions (CI/CD)
+- Git & GitHub
 
-* praktijkervaring opdoen met Azure App Service
-* leren werken met een Python backend
-* begrijpen hoe frontend en backend samenwerken
-* meer ervaring opdoen met GitHub
-* mijn cloud portfolio verder uitbreiden
+---
 
-## Gebruikte Azure services
+## ⚙️ Features
 
-* Azure Resource Group
-* Azure App Service
-* Azure App Service Plan
+- Add tasks via a web form
+- Dynamically display tasks
+- Clean and simple UI
 
-## Gebruikte technieken
+---
 
-* Python
-* Flask
-* HTML
-* CSS
-* GitHub
+## ☁️ Azure setup
 
-## Functionaliteiten
+| Component | Details |
+|---|---|
+| Service | Azure App Service |
+| OS | Linux |
+| Runtime | Python 3.12 |
+| Startup command | `gunicorn app:app` |
+| Deployment | GitHub Actions |
 
-* Taken bekijken
-* Nieuwe taken toevoegen
-* Simpele webinterface
-* Python backend met Flask
+---
 
-## Uitgevoerde stappen
+## 🔄 CI/CD Pipeline
 
-* Python project opgezet
-* Flask webapp gebouwd
-* HTML template toegevoegd
-* CSS styling toegevoegd
-* requirements.txt aangemaakt
-* Code geüpload naar GitHub
-* Azure App Service aangemaakt
-* Webapp gedeployed naar Azure
+Every push to the `main` branch automatically:
+1. Builds the application
+2. Installs dependencies
+3. Deploys to Azure App Service
 
-## Leerpunten
+---
 
-Met dit project heb ik geleerd:
+## 💡 What I learned
 
-* hoe ik een Python Flask app opzet
-* hoe een backend en frontend samenwerken
-* hoe ik een Python webapp deploy naar Azure
-* hoe ik een Azure App Service configureer
+- How to build a Python web app with Flask
+- How to deploy to Azure App Service
+- How to set up a CI/CD pipeline with GitHub Actions
+- How to troubleshoot deployment issues (credentials, startup commands)
 
-## Live demo
+---
+
+## 🚧 Future improvements
+
+- [ ] Store tasks in a database (Azure Table Storage or Azure SQL)
+- [ ] Add delete and edit functionality
+- [ ] Add user authentication
+- [ ] Improve UI/UX
+
+---
+
+## 👨‍💻 About me
+
+I am working towards becoming an Azure specialist and actively building my portfolio.
+This project is part of that journey 🚀
