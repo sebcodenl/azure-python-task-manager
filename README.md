@@ -64,5 +64,3 @@ Met dit project heb ik geleerd:
 * hoe ik een Azure App Service configureer
 
 ## Live demo
-
-[Voeg hier later je live link toe]
