@@ -11,14 +11,17 @@
         <h1>Azure Python Task Manager</h1>
         <p>My second Azure portfolio project</p>
 
-        <form method="POST">
+        <form method="POST" action="/add">
             <input type="text" name="task" placeholder="Enter a new task" required>
             <button type="submit">Add Task</button>
         </form>
 
         <ul>
             {% for task in tasks %}
-                <li>{{ task }}</li>
+                <li>
+                    {{ task.name }}
+                    <a href="/delete/{{ task.RowKey }}" class="delete-btn">✕</a>
+                </li>
             {% endfor %}
         </ul>
     </div>
