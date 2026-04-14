@@ -62,8 +62,8 @@ Every push to the `main` branch automatically:
 
 ## 🚧 Future improvements
 
-- [ ] Store tasks in a database (Azure Table Storage or Azure SQL)
-- [ ] Add delete and edit functionality
+- [x] Store tasks in a database (Azure Table Storage or Azure SQL)
+- [x] Add delete and edit functionality
 - [ ] Add user authentication
 - [ ] Improve UI/UX
 
